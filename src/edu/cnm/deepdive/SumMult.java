@@ -9,14 +9,14 @@ public class SumMult {
     while (i <= 1000) {
       sum = sum + i;
       i++;
-      System.out.println(sum);
+      //System.out.println(sum);
       if ((i % 3 == 0) || (i % 5 == 0)) {
-        sum = sum - i;
-        System.out.println(sum);
-        
+        sum = sum + i;
+        System.out.println(sum - 500500);
       }
     }
   }
 }
+
 
 
